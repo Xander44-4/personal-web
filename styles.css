@@ -15,6 +15,7 @@ header {
     border: 1px solid rgb(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0.37);
     background-color: none;
+    z-index: 1000;
 }
 
 nav {
@@ -64,6 +65,8 @@ nav {
 
 }
 
+
+
 .izquierda {
     margin-left: 30px;
     flex: 1;
@@ -89,7 +92,7 @@ nav {
 
 .izquierda h1 {
 
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .derecha {
@@ -108,6 +111,7 @@ nav {
 
 .cuadro {
     position: relative;
+    z-index: 100;
     border: 1px solid none;
     height: 70vh;
     width: 50vw;
@@ -137,6 +141,8 @@ nav {
     justify-content: center;
 
 }
+
+
 
 .img-items {
     display: flex;
@@ -215,4 +221,25 @@ footer h1 {
 
 .red {
     color: red;
+}
+
+.videito {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.videito iframe {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 320px;
+    /* un poco más grande y proporcionado */
+    height: 180px;
+}
+
+.videito iframe:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
 }
