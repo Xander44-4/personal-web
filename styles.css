@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(135deg, rgb(255, 255, 255, 0.1), rgb(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0.37);
+    background-color: none;
+}
+
+nav {
+
+    list-style: none;
+    align-items: center;
+    margin: 10px;
+    position: none;
+
+}
+
+.links {
+
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.links li {
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+.links li a:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.links li a {
+    text-decoration: none;
+}
+
+
+.main-sect {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    background-color: yellow;
+
+}
+
+.izquierda {
+    flex: 1;
+}
+
+.izquierda h1 {
+    font-size: 7rem;
+}
+
+.derecha {
+    flex: 1;
+}
+
+.abt {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cuadro {
+    position: relative;
+    border: 1px solid none;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0.37);
+}
+
+.cuadro h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hob-items {
+    display: flex;
+    flex-direction: row;
+    gap: 100%;
+
+    justify-content: center;
+
+}
+
+.img-items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    justify-content: center;
+
+}
+
+.hob-items p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.footer-cuadro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer {
+    margin: 20px;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
